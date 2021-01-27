@@ -1,0 +1,35 @@
+h1 {
+    font-size: 1.2em;
+    margin-bottom: 0;
+}
+
+.nav_list {
+    margin: 2em 0;
+    padding: 0;
+}
+
+.nav_item {
+    display: inline-block;
+    margin: 1em 1em;
+}
+
+.nav_item a {
+    padding: 1em;
+    background-color: #EEE;
+    border-radius: 4px;
+}
+
+.nav_item > a:link, 
+.nav_item > a:visited {
+    color: #334953;
+}
+
+.nav_item > a:focus, 
+.nav_item > a:hover {
+    color: #039BE5;
+    background-color: #CFD8DC;
+}
+
+.nav_item > a:active {
+    color: #039BE5;
+}

@@ -1,0 +1,35 @@
+label {
+    display: inline-block;
+    min-width: fit-content;
+    margin: 0.5em 0;
+    color: #607D8B;
+    font-weight: bold;
+}
+
+input {
+    height: 2em;
+    font-size: 1em;
+    padding: 0.5em 1em;
+}
+
+button {
+    margin-top: 20px;
+    display: block;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #EEE;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:focus,
+button:hover {
+    background-color: #CFD8DC;
+}
+
+button:disabled {
+    background-color: #EEE;
+    color: #CCC;
+    cursor: auto;
+}
